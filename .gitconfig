@@ -1,0 +1,12 @@
+[alias]
+	c = checkout
+	d = diff
+	ds = diff --staged
+	s = status
+	sort = branch --sort=-committerdate
+
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+
+[http]
+	cookiefile = /Users/tpaschalis/.gitcookies
